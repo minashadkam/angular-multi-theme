@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   template: `
-    <p>
+    <p class="primary-banner">
       shared works!
     </p>
   `,

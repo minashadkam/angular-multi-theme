@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+
+//@import "../dist/shared/src/styles/theme/green-orange.scss";
+//@import "../dist/shared/src/styles/theme/dark-yellow.scss";
+
+
+@use "../dist/shared/src/styles/theme/dark-yellow" with(
+$primary-color: var(--background-color)
+);
+
+
+//:root {
+//    --background-color: #0f5dec;
+//    --text-color: #292828;
+//
+//}
+
+
+body.light ,[data-theme="light"]  {
+  --background-color: #887fda;
+  --text-color: #000000;
+}
+
+body.dark , [data-theme="dark"]{
+  --background-color: #4f239a;
+  --text-color: #ffffff;
+}
+
+
