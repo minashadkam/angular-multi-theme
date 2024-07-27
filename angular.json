@@ -27,7 +27,23 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/styles/main.scss",
+              {
+                "input": "public/theme/secondary.scss",
+                "bundleName": "secondary",
+                "inject": false
+              },
+              {
+                "input": "public/theme/dark-yellow.scss",
+                "bundleName": "dark-yellow",
+                "inject": false
+              },
+              {
+                "input": "public/theme/green-orange.scss",
+                "bundleName": "green-orange",
+                "inject": false
+              }
             ],
             "scripts": []
           },
