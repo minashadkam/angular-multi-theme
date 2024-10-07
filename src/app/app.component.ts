@@ -44,7 +44,7 @@ export class AppComponent implements OnInit {
 
   chooseTheme(theme: Theme) {
     debugger
-    this.themeService.setTheme(Theme.DARK_YELLOW, this.renderer2);
+    this.themeService.setTheme(theme, this.renderer2);
   }
 
   changeTheme() {

@@ -30,17 +30,17 @@
               "src/styles.scss",
               "src/assets/styles/main.scss",
               {
-                "input": "public/theme/secondary.scss",
+                "input": "projects/shared/src/styles/theme/secondary.scss",
                 "bundleName": "secondary",
                 "inject": false
               },
               {
-                "input": "public/theme/dark-yellow.scss",
+                "input": "projects/shared/src/styles/theme/dark-yellow.scss",
                 "bundleName": "dark-yellow",
                 "inject": false
               },
               {
-                "input": "public/theme/green-orange.scss",
+                "input": "projects/shared/src/styles/theme/green-orange.scss",
                 "bundleName": "green-orange",
                 "inject": false
               }
